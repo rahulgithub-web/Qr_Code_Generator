@@ -1,0 +1,63 @@
+@import url('http://fonts.cdnfonts.com/css/lilly');
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-top: 30px;
+  background: radial-gradient(circle, rgba(186,68,104,1) 48%, rgba(54,96,105,1) 100%);
+  height: 100vh;
+}
+
+h1 {
+  font-family: lilly, sans-serif;
+  font-size: 50px;
+}
+
+.gen input {
+  height: 35px;
+  width: 250px;
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+button {
+  position: relative;
+  height: 38px;
+  width: 100px;
+  top: -2px;
+  font-size: 18px;
+  border: none;
+  transition: 0.5s;
+  color: black;
+  background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%);
+  box-shadow: 0 0 10px #eee;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+.extra {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+.output-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%)}
+
+
