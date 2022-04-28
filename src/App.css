@@ -82,11 +82,16 @@ button:active {
 }
 
 @media screen and (max-width: 900px) {
-   .gen input {
+  .input-box {
     justify-content: center;
     align-items: center;
+    display: flex;
     flex-direction: column;
-   }
+  }
+
+  .App {
+    background: radial-gradient(circle, rgba(186, 68, 104, 1) 48%, rgba(54, 96, 105, 1) 100%);
+  }
 
    h1 {
     font-size: 25px;
