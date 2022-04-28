@@ -82,15 +82,14 @@ button:active {
 }
 
 @media screen and (max-width: 900px) {
-   .main {
+   .gen input {
     justify-content: center;
     align-items: center;
-    display: flex;
     flex-direction: column;
    }
 
    h1 {
-    font-size: 10px;
+    font-size: 25px;
    }
 
   .Vector {
