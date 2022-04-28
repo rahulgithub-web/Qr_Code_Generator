@@ -1,19 +1,39 @@
 @import url('http://fonts.cdnfonts.com/css/lilly');
 
 .App {
-  display: flex;
-  flex-direction: column;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  /* background: radial-gradient(circle, rgba(186,68,104,1) 48%, rgba(54,96,105,1) 100%); */
+  height: 97vh;
+  position: relative;
+  color: #7c7676c7;
+}
+
+.main {
   justify-content: center;
   align-items: center;
+  display: flex;
+  flex-direction: column;
   gap: 50px;
   padding-top: 30px;
-  background: radial-gradient(circle, rgba(186,68,104,1) 48%, rgba(54,96,105,1) 100%);
-  height: 100vh;
+}
+
+.Vector {
+  background: url(./undraw_upload_re_pasx.svg) no-repeat;
+  width: 50vw;
+  height: 50vh;
+  background-size: contain;
+  position: absolute;
+  left: 280px;
+  bottom: 120px;
+  z-index: -1;
 }
 
 h1 {
   font-family: lilly, sans-serif;
   font-size: 50px;
+  color: #c3c3c3;
 }
 
 .gen input {
@@ -27,12 +47,11 @@ button {
   position: relative;
   height: 38px;
   width: 100px;
-  top: -2px;
   font-size: 18px;
   border: none;
   transition: 0.5s;
   color: black;
-  background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%);
+  background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff 51%, #ff6e7f 100%);
   box-shadow: 0 0 10px #eee;
   cursor: pointer;
   border-radius: 10px;
@@ -58,6 +77,6 @@ button:active {
 }
 
 
-.btn-grad {background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%)}
-
-
+.btn-grad {
+  background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff 51%, #ff6e7f 100%)
+}
